@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Tarea 1 Curso HTML</title>
+  </head>
+
+  <body>
+    <nav>
+      <a class="active" href="tarea1.html">Pagina principal</a>
+    </nav>
+
+    <header>
+      <h1>Allan Javier Figueroa Menegazzo</h1>
+      <p>Facultad de Ingenieria</p>
+      <p>Universidad de San Carlos de Guatemala</p>
+      <p>Ingenieria Electrica</p>
+    </header>
+
+    <h2>Carnet: 201404016</h2>
+
+    <ul>
+      <h3>Mis Caracteristicas</h3>
+      <li></li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+
+    <img
+      class="imagen"
+      src="C:\Users\Allan Figueroa\Desktop\HTML\IMG_20191020_181056.jpg"
+      alt="Mifoto"
+      width="500" height="600"/>
+
+  </body>
+</html>
