@@ -1,8 +1,8 @@
 document.getElementById("form1").addEventListener("submit", registrarCliente)
 
 function registrarCliente(e){
-    let marca = document.getElementById("nombre").value;
-    let modelo = document.getElementById("dpi").value;
+    let nombre = document.getElementById("nombre").value;
+    let dpi = document.getElementById("dpi").value;
 
     let cliente = {
         nombre: nombre,
