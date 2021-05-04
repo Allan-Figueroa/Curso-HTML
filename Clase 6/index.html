@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo 6</title>
+    <!--BOOTSTRAP-->
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/united/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Notes App</span>
+      </div>
+    </nav>
+    <!--CONTAINER-->
+    <div class="container mt-2">
+      <div class="row justify-content-center">
+        <!--REGISTER NOTE-->
+        <div class="col-5">
+          <div class="card text-center">
+            <h2 class="card-title">Notes</h2>
+            <div class="card-body">
+              <form id="formNotes">
+                <!--Name-->
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    id="name"
+                    class="form-control"
+                  />
+                </div>
+                <!--DESCRIPTION-->
+                <div class="form-group">
+                  <label for="description">Description</label>
+                  <textarea
+                    id="description"
+                    rows="5"
+                    class="form-control"
+                  ></textarea>
+                </div>
+                <!--DATE-->
+                <div class="form-group">
+                  <label for="date">Date</label>
+                  <input type="date" class="form-control" id="date" />
+                </div>
+                <!--BUTTON-->
+                <button class="btn btn-secondary btn-block" type="submit">
+                  Register
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!--NOTES-->
+        <div class="col-7">
+          <div id="notes"></div>
+        </div>
+      </div>
+    </div>
+    <!--SCRIPTS-->
+    <script src="app.js"></script>
+  </body>
+</html>
