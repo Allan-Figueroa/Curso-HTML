@@ -1,11 +1,15 @@
-document.getElementById("form1").addEventListener("submit", registrarCarro)
+document.getElementById("form1").addEventListener("submit", registrarCliente)
 
-function registrarCarro(e){
-    let marca = document.getElementById("marca").value;
-    let modelo = document.getElementById("modelo").value;
+function registrarCliente(e){
+    let marca = document.getElementById("nombre").value;
+    let modelo = document.getElementById("dpi").value;
 
-    let carro={
-        marca: marca,
-        modelo: modelo,
+    let cliente = {
+        nombre: nombre,
+        dpi: dpi,
     };
+    console.log(cliente);
+
+    document.getElementById("form1").reset();
+    e.preventDefault();
 }

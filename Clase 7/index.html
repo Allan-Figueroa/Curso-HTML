@@ -4,10 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>INFORMACION PERSONAL</title>
+    <link
+    rel="stylesheet"
+    href="https://bootswatch.com/4/united/bootstrap.min.css"/>
 </head>
 <body>
-    
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <div class="card text-center">
+              <h2 class="card-title">Formulario de cliente</h2>
+              <div class="card-body">
+                <form id="form1">
+                  <!--NOMBRE-->
+                  <div class="form-group">
+                    <label for="Nombre">Nombre del cliente</label>
+                    <input
+                      type="text"
+                      placeholder="Ingresa el nombre del cliente"
+                      class="form-control"
+                      id="nombre"
+                    />
+                  </div>
+                  <!--N. de DPI-->
+                  <div class="form-group">
+                    <label for="modelo">Numero de DPI</label>
+                    <input
+                      type="text"
+                      placeholder="Ingresa Numero de DPI"
+                      class="form-control"
+                      id="dpi"
+                    />
+                  </div>
+                  <!--BUTTON-->
+                  <button class="btn btn-dark btn-block" type="submit">
+                    Registrar
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!--SCRIPTS-->
+    <script src="app.js"></script>
 </body>
 </html>
