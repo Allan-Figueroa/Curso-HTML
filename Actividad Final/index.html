@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFORMACION PERSONAL</title>
+    <link
+    rel="stylesheet"
+    href="https://bootswatch.com/4/united/bootstrap.min.css"/>
+</head>
+<body>
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Proyecto Final</span>
+    </div>
+  </nav>
+    <!--CONTAINER-->
+    <div class="container mt-2">
+      <div class="row justify-content-center">
+        <div class="container mt-5">
+          <div class="row justify-content-center">
+            <!--REGISTER NOTE-->
+            <div class="col-5">
+              <div class="card text-center">
+                <h2 class="card-title">Formulario de cliente</h2>
+                <div class="card-body">
+                  <form id="formNotes">
+                    <!--NOMBRE-->
+                    <div class="form-group">
+                      <label for="Nombre">Nombre del cliente</label>
+                      <input
+                      type="text"
+                      placeholder="Ingresa el nombre del cliente"
+                      class="form-control"
+                      id="nombre"
+                      />
+                    </div>
+                    <!--N. de DPI-->
+                    <div class="form-group">
+                      <label for="Dpi">Numero de DPI</label>
+                      <input
+                      type="text"
+                      placeholder="Ingresa Numero de DPI"
+                      class="form-control"
+                      id="dpi"
+                      />
+                    </div>
+                    <!--Carrera que estudia-->
+                    <div class="form-group">
+                      <label for="Carrera">Carrera</label>
+                      <input
+                      type="text"
+                      placeholder="Que carrera estudia"
+                      class="form-control"
+                      id="carrera"
+                      />
+                    </div>
+                    <!--Cumpleaños-->
+                    <div class="form-group">
+                      <label for="Cumpleaños">Cumpleaños</label>
+                      <input 
+                      type="date" 
+                      class="form-control" 
+                      id="cumpleaños" 
+                      />
+                    </div>
+                    <!--BUTTON-->
+                    <button class="btn btn-dark btn-block" type="submit">
+                    Registrar
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-7">
+              <div id="notes"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--SCRIPTS-->
+    <script src="app.js"></script>
+</body>
+</html>
