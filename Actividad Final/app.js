@@ -12,6 +12,7 @@ function registerNote(e) {
         carrera: carrera,
         cumpleaños: cumpleaños,
     };
+    console.log(note);
   
     let local = localStorage.getItem("notes");
     let notes = [];
@@ -76,4 +77,4 @@ function registerNote(e) {
   
   //Carga de notas inicial
   getNotes();
-  console.log(note);
+  
